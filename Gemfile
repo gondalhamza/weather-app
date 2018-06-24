@@ -29,8 +29,6 @@ gem 'httparty', '~> 0.13.7'
 gem 'bootstrap-sass', '~> 3.3.7'
 # Jquery
 gem 'jquery-rails'
-# Select 2
-gem "select2-rails"
 # Debugging
 gem 'pry'
 

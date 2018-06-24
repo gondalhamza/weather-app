@@ -22,5 +22,8 @@ application up and running.
 **** run `rake weather_application:create_cities`
 
 *** Step (b)
-**** This step may be completed faster then step (a). You dont need to run rake task to create cities data in your database. You can import the database with the file in postgres database.
-**** Get exported weather database, and import with the command.
+**** This step may be completed faster then step (a). You dont need to run rake task to create cities data in your database. run `rake db:seed` to get city and code for few cities from that list.
+
+**** Run the test cases with `rspec`.
+
+********************************************************************************************************

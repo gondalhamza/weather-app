@@ -16,5 +16,4 @@
 //= require activestorage
 // require turbolinks
 //= require home
-//= require select2
 // require_tree .
