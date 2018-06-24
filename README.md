@@ -13,7 +13,7 @@ application up and running.
 * Create database
 ** run `rake db:create`
 
-* Migrate database or Import database
+* Migrate database
 ** Here you will need to do one of the following. You may choose step (a) or step (b).
 
 *** Step (a)
