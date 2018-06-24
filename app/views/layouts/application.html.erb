@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WeatherApplication</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+  </head>
+
+  <body>
+    <div class="site-contents">
+      <div class="header">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">Weather Forecaster</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="container">
+        <%= yield %>
+      </div>
+    </div>
+    <div id="ajaxBusy"></div>
+  </body>
+</html>
